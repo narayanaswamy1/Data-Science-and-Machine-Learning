@@ -1,0 +1,18 @@
+* SVM - Support Vector Machine is a supervised ML algorithm whivh can be used for both classification or regression challenges. 
+    it is mostly used in classification problems
+
+* an svm model is a representation of the examples as points in space, mapped so that the examples of the separate categories are divided by a clear gap that is as wide as possible. new examples are then mapped into that same space and predicted to belong to a category based on which side of the gap they fall.
+
+* in addition to performing kinear classification, svms can effectively perform a non linear classification using what is called the kernel trick, imp***** mapping their inputs into high-dimentional.
+
+
+
+* Kernal: various options like linear, rbf, poly, and others
+    default : rbf
+    rbf, poly : used for non linear hyper plane.
+
+* Gamma: kernal coefficient for rbf, poly, and sigmoid.
+
+* C: penalty parameter of the error term. , c decides the trade-off b/w maximising the margin and minimizing the mistakes.
+** we should always look at the cross-validation score to have effective combination of these parameters and avoid over-fitting.
+

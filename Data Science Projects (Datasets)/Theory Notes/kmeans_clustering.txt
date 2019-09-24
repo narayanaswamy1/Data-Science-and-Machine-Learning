@@ -1,0 +1,2 @@
+unsupervised, 
+makes classification based on user requirement,

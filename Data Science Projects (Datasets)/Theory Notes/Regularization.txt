@@ -1,0 +1,27 @@
+Regularization techniques basically discourage learning a more complex model, so as to avoid the risk of overfitting which comes up in training a model on sample data.
+
+two types of Regularization:
+    1. Ridge Regression
+    2. Lasso Regression
+
+* large coefficients/weights are not preferred
+* 0 weight for the feature that are not very important
+* reduce the cost of computation and complexity of the model.
+
+
+Issues with OLS(Ordinary Least Squares)
+*some examples of regression equation
+    1. Y = 1.5 + 0.6X1 + 98X2 + 1010X3
+    2. Y = 2 + 5X1 + 18X2 + 25X3
+    
+    
+Ridge Regression (L2 Regression)
+* Ridge Regression is a tehnique for analysing multiple regression data that suffer from multicolinearity
+
+Advantages of ridge regression:
+* disadvantages of OLS is overcome by Ridge Regression
+
+
+Lasso Regression (L1 Regularization)
+* Least absolute Shrinking and selection Operator
+

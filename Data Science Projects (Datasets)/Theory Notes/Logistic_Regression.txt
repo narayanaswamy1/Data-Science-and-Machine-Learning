@@ -1,0 +1,39 @@
+Classification model
+
+Regression: o/p is continous.
+
+p
+1-p
+
+ratio of p/(1-p) is known as odds
+
+log(p/(1-p)) --- logic function
+
+log(p/(1-p))=x
+p/(1-p) = e^x
+p = e^x - e^x*p
+(1+e^x)p = e^x
+p(x) = e^x/(1+e^x)
+p(x) = 1/(1+e^-x)
+
+
+** logistic regression: is a type of probabilistic statistical classification model
+** Used for predecting the outcome of a categorical dependent variable(i.e., a class label) based
+	on one or more predictor variables(features)
+
+p-value: probability of failing to reject the null hypothesis
+
+acuracy score = (TP+TN)/(TP+TN+FP+FN)
+
+**Actual churn customers are 595 + 692 = 1287
+**ideally the model should predict all of them as churn (ie, corresponding to the business problem above)
+
+**but out of these 1287 the current model only predicts 692 as churn
+
+**thus only 692 out of 1287 or only about 53% of churn customers will be predicted by the model as churn .T
+
+**the company wont be able to roll out offers to the rest 47% churn customers and they could switch to a competitor
+
+**So
+
+true positive 

@@ -1,0 +1,14 @@
+*** slide1
+* principle component analysis (PCA) is a technique used to emphasize variation and bring out strong patterns in a dataset.
+
+* its often used to make data easy to explore and visualize.
+
+* PCA reduces dimentionally by finding a new set of features called components, which are composites of the original features
+    , but are uncorrelated with one another.
+    
+    
+*** slide 2:
+PCA is used for Dimentionally reduction (also done by RFE)
+* the first few PCs explains most of the variance
+* the PCs are the vectors made by the algorithm(they are orthogonal/independent to each other)
+* 
